@@ -1,3 +1,18 @@
 @media (max-width: 834px) {
-    
+    .mainvisual img {
+        object-position: center;
+    }
+
+    .content {
+        padding: 80px 40px;
+    }
+
+    .recipe-img {
+        flex-direction: column;
+    }
+
+    .recipe-img li {
+        width: 100%;
+        margin-bottom: -5px;
+    }
 }
