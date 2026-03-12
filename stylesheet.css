@@ -106,6 +106,10 @@ footer p {
     width: 50%;
 }
 
+.recipe-txt {
+    padding: 20px 90px 0;
+}
+
 .recipe-txt h1 {
     font-size: 28px;
     color: #2B2A27;
@@ -113,8 +117,25 @@ footer p {
 
 .recipe-txt h2 {
     font-size: 20px;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 30px 0 5px;
 }
 
 dl div {
     display: flex;
+    justify-content: space-between;
+}
+
+.txt {
+    border-bottom: 1px dotted #CCCCCC;
+    line-height: 35px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.recipe-txt li {
+    border-bottom: 1px dotted #CCCCCC;
+    line-height: 35px;
 }
